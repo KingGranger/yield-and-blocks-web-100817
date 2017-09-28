@@ -3,6 +3,7 @@ def hello_t array
   while idx < array.length
     yield array[i]
     idx += 1
+  end
 end
 
 hello_t(["Tim", "Tom", "Jim"]) do |name|
