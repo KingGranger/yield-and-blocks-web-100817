@@ -4,6 +4,7 @@ def hello_t array
     yield array[idx]
     idx += 1
   end
+  array 
 end
 
 hello_t(["Tim", "Tom", "Jim"]) do |name|
